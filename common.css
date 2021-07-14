@@ -93,7 +93,7 @@ input, select {
     vertical-align:middle;
 }
 /************************************************************************************************/
-*, p {
+*, p, footer li {
   font-family: source-han-sans-japanese, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   color: rgb(80, 80, 80);
   font-size: .9em;
@@ -490,7 +490,7 @@ h1::after {
 }
 
 @media screen and (max-width: 599px) {
-  *, p {
+  *, p, footer li {
     font-size: .8em;
   }
 
